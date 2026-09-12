@@ -48,7 +48,7 @@ Or download **`Ryzentosh-Patch-Utility.dmg`**, drag the `.app` into `/Applicatio
   - [3. Gatekeeper Quarantine & Ad-Hoc Code Signing](#3-gatekeeper-quarantine--ad-hoc-code-signing)
   - [4. Persistent History Ledger & Update Healing](#4-persistent-history-ledger--update-healing)
   - [5. Persistent CLI Loop & Clean Redraws](#5-persistent-cli-loop--clean-redraws)
-- [Prerequisites](#prerequisites)
+- [Prerequisites (MUST DO BEFORE INSTALL)](#prerequisites)
 - [Installation Guide](#installation-guide)
   - [Method 1: Apple Disk Image (DMG) - Recommended](#method-1-apple-disk-image-dmg---recommended)
   - [Method 2: Standalone macOS App ZIP](#method-2-standalone-macos-app-zip)
@@ -414,7 +414,9 @@ Reverts all patches, cleans up leftover `.bak` backup files, and wipes the histo
 For applications or games using **Intel Math Kernel Library (MKL)**, runtime CPUID checks can be overridden using an environment variable without modifying binary files:
 
 ### Steam Launch Options
-1. Open **Steam** $ightarrow$ Right-click your game $ightarrow$ **Properties...**
+1. Open **Steam** $
+ightarrow$ Right-click your game $
+ightarrow$ **Properties...**
 2. In the **General** tab under **Launch Options**, paste:
    ```bash
    /usr/bin/env MKL_DEBUG_CPU_TYPE=5 %command%
