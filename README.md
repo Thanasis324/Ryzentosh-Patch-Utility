@@ -16,7 +16,7 @@
   <a href="#features"><img src="https://img.shields.io/badge/CPU-AMD%20Ryzen%20%2F%20Threadripper-orange?logo=amd" alt="AMD Ryzen Architecture" /></a>
   <a href="#prerequisites"><img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python" alt="Python Version" /></a>
   <a href="#testing"><img src="https://img.shields.io/badge/Tests-20%2F20%20Passing-brightgreen" alt="Test Status" /></a>
-  <a href="#credits--open-source-acknowledgements"><img src="https://img.shields.io/badge/License-MIT-green" alt="MIT License" /></a>
+  <a href="#disclaimer--license"><img src="https://img.shields.io/badge/License-GPL%203.0-blue.svg" alt="GPL 3.0 License" /></a>
 </p>
 
 ---
@@ -498,5 +498,5 @@ This utility builds upon the collective engineering, research, and tools develop
 
 ## Disclaimer & License
 
-- **License**: Released under the [MIT License](LICENSE).
+- **License**: Released under the [GNU General Public License v3.0 (GPL-3.0)](LICENSE).
 - **Disclaimer**: This tool is an independent open-source utility designed for compatibility and interoperability research on AMD-based personal computers. macOS, Apple, and the Apple logo are registered trademarks of Apple Inc. Intel, Intel Core, and Intel TBB are trademarks of Intel Corporation. AMD and Ryzen are trademarks of Advanced Micro Devices, Inc. This project is not affiliated with, sponsored by, or endorsed by Apple Inc., Intel Corporation, or AMD Inc.
